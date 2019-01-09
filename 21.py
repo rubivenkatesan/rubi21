@@ -1,7 +1,6 @@
 #rubi
-n=int(input())
-a=int(input())
-d=int(input())
+n,a,d= map(int, input().split())
+
 sum=0
 for i in range(0,n):
   sum+=a
