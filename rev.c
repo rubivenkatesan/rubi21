@@ -1,4 +1,4 @@
-#rubi1
+/*rubi
 #include<stdio.h>
 int main(void)
 {
