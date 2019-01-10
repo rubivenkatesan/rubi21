@@ -1,5 +1,5 @@
 #rubi
-time = input()
+time =int (input())
 hour = time //60
 time %= 60
 minutes = time // 1
