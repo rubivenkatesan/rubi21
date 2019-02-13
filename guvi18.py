@@ -1,13 +1,17 @@
 #rubi
+from collections import Counter
 n=int(input())
 l=[]
-c=0
-k="kabali"
-a=sorted(k)
 for i in range(n):
-	s=input()
-	l.append(s)
+    s=input()
+    l.append(s)
+t=Counter('kabali')
+a=t.values()
+c=0
 for i in l:
-	if sorted(i)==a:
-		c=c+1
+    x=Counter(i)
+    b=x.values()
+    if(sorted(list(a))==sorted(list(b))):
+        c+=1
 print(c)
+
