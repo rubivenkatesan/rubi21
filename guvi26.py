@@ -1,4 +1,4 @@
-#rubi
+#rubi4444444
 s=input()
 for i in range(len(s)-2):
     if s[i]==' ' and s[i+1]==' ':
