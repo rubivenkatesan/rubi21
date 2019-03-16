@@ -25,4 +25,4 @@ for i in s:
 if p1==0 and p2==0:
   print('yes')
 else:
-  print('no')s
+  print('no')
