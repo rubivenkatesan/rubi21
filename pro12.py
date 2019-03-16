@@ -1,4 +1,4 @@
-3rubi
+#rubi
 a, b = map(int,input().split(" "))
 list1 = [int(i) for i in input().split()]
 list1.insert(0,0)
