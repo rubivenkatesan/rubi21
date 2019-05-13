@@ -7,4 +7,4 @@ s=""
 for i in range(0,len(p)):
         s=s+str(p[i])+" "
 print(s.strip())
-#merge
+#rubika
