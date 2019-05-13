@@ -1,5 +1,3 @@
 #rubi
-import re
-s=input()
-r=re.sub(' +', ' ',s)
-print(r.strip())
+n = [x for x in input().split()]
+print(' '.join(n))
