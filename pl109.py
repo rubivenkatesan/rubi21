@@ -1,10 +1,7 @@
 #rubi
-m=int(input())
-a=list(map(int,input().split()))
+N=int(raw_input())
+a=list(map(int,(raw_input()).split()))
 b=[]
-c=0
-for i in range(0,m):
-  c+=a[i-1]
-  b.append(c)
-print(*b[::-1])  
-  
+for i in range(0,N) :
+    b.append(sum(a[i:]))
+print(" ".join([str(i) for i in b]))
