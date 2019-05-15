@@ -1,0 +1,9 @@
+#rubi
+r,u=map(int,input().split())
+b,i=map(int,input().split())
+s,a=map(int,input().split())
+n,k=map(int,input().split())
+if(r+b+s+n==u+i+a+k):
+  print("yes")
+else:
+  print("no")  
