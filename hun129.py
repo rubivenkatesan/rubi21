@@ -1,9 +1,11 @@
 #rubi
-n=int(input())
-a=list(map(int,input().split()))
-
-l=[]
-
-for i in range(0,n-1):
-  l.append(a.count(i))
-print(max(l))  
+s=int(input())
+l=list(map(int,input().split()))
+s=[]
+for i in l:
+    s.append(l.count(i))
+n=max(s)
+for i in range(0,len(s)):
+    if s[i]==n:
+        print(l[i])
+        break
