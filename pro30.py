@@ -1,5 +1,5 @@
 #rubi
-r=int(raw_input())
+r=int(input())
 if(r/8==431.75):
     print("yes")
 elif(r==10):
