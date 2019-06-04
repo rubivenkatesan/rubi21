@@ -1,4 +1,4 @@
-#r
+#saro
 n=int(input())
 l=[int(x) for x in input().split()]
 b=[str(l[0])]
