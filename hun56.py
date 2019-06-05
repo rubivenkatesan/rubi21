@@ -1,4 +1,4 @@
-#r
+#rubi21
 n=int(input())
 l=[int(x) for x in input().split()]
 a=1000
